@@ -4,7 +4,8 @@ public class HelloWorld {
         int a = 5;
         double b = 8;
         double c = (b/a);
-        System.out.println(c);
+        double d = (int)(c+a);
+        System.out.println(d);
 
     }
 }
